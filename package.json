@@ -1,5 +1,5 @@
 {
-  "name": "01-github-explorer",
+  "name": "uploader",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -11,7 +11,9 @@
   "dependencies": {
     "@unform/core": "^2.1.6",
     "dotenv": "^16.0.1",
-    "react": "^17.0.1"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.3.5"
   },
   "eslintConfig": {
     "extends": [
@@ -29,6 +31,7 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@types/react-dom": "^17.0.0",
+    "@types/styled-components": "^5.1.25",
     "babel-loader": "^8.2.2",
     "babel-preset-react-app": "^10.0.0",
     "cross-env": "^7.0.3",
